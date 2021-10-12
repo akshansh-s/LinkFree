@@ -15,7 +15,14 @@ body {
   justify-content: center;
   background-image: url(images/universe.gif);
   background-repeat: repeat;
+  overflow-x: hidden;
   /* background-size: cover; */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;
 }
 
 main {
@@ -39,6 +46,10 @@ main div {
   
   margin-bottom: 2rem;
   width: 30vw;
+}
+
+main .profile {
+  margin-top: 7em;
 }
 
 main .profile img {
