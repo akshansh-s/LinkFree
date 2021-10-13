@@ -9,16 +9,16 @@ body {
   margin: 0;
   padding: 0;
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   align-items: center;
   justify-content: center;
   background-image: url(images/universe.gif);
   background-repeat: repeat;
-  overflow-x: hidden;
-  /* background-size: cover; */
-  -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+   overflow-x: hidden;
+  /* background-size: cover;  */
+  -ms-overflow-style: none; 
+  scrollbar-width: none;  
 }
 
 *::-webkit-scrollbar {
@@ -35,6 +35,8 @@ main {
   align-items: center;
   justify-content: center;
   transition: all .5s ease;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 main:hover {
@@ -46,10 +48,6 @@ main div {
   
   margin-bottom: 2rem;
   width: 30vw;
-}
-
-main .profile {
-  margin-top: 7em;
 }
 
 main .profile img {
